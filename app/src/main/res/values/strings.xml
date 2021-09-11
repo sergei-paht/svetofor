@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Светофор</string>
+    <string name="cv_red">Красный</string>
+    <string name="cv_yellow">Желтый</string>
+    <string name="cv_green">Зеленый</string>
+    <string name="name">Светофор</string>
+</resources>

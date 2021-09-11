@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="@color/neme"
+        android:padding="15dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickred"
+        android:text="@string/cv_red"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/button"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickyellow"
+        android:text="@string/cv_yellow"
+        android:textColor="@color/yellow"
+        android:backgroundTint="@color/button"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickgreen"
+        android:text="@string/cv_green"
+        android:textColor="@color/green"
+        android:backgroundTint="@color/button"/>
+
+
+</LinearLayout>
